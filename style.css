@@ -1,0 +1,126 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background: -webkit-linear-gradient(59deg, #fdece4,#d9e9d2,#e2e4b9);background: linear-gradient(59deg, #fdece4,#d9e9d2,#e2e4b9);
+   /* background: -webkit-linear-gradient(90deg, #000000,#230b10,#331016,#230b10,#000000);background: linear-gradient(90deg, #000000,#230b10,#331016,#230b10,#000000); */
+  text-align: center;
+  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* background-color: #fff; */
+  padding-top: 25px;
+  min-height: 120vh;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 70px;
+  text-transform: uppercase;
+  /* color: maroon; */
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+  color: green;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 21px;
+}
+
+input {
+  height: 22px;
+  padding: 5px 0 5px 15px;
+  border: 1px solid mediumspringgreen;
+  border-radius: 6px;
+
+}
+
+.input-name {
+  width: 958px;
+  margin-bottom: 15px;  
+}
+.inputs__bottom {
+  display: flex;
+  align-items: center;
+  margin-left: 127px;
+}
+.inputs__bottom input {
+  width: 400px;
+  margin-left: 10px;
+}
+.input-date {
+  margin-right: 54px;
+}
+
+.button {
+  margin: 0 auto;
+  margin-top: 22px;
+  height: 40px;
+  width: 250px;
+  background: green;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button:hover {
+ border: 2px solid #fff;
+}
+
+.table {
+  border: 2px solid #fff;
+  border-radius: 6px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.cost-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cost-row div {
+  min-width: 150px;
+}
+
+.cell {
+  min-width: 150px;
+}
+
+.remove-button h4 {
+  cursor: pointer;
+}
+
+h4 {
+  padding: 20px 0;
+  font-size: 20px;
+}
+h5 {
+  color: red;
+  margin-top: 5px;
+  display: none;
+}
+

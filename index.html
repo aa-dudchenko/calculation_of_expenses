@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список расходов</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Мои расходы</h1>
+    <h3>Добавить позицию:</h3>
+
+    <div class="input__top">
+      <label for="name">Наименование:</label>
+          <input class="input-name" type="text" name="name" id="name" placeholder="Введите название...">
+    </div>
+
+    <div class="inputs__bottom">
+      <label class="label-date" for="date">Дата:</label>
+      <input class="input-date" type="date" name="date">
+      <label class="label-number" for="number">Сумма:</label>
+      <input class="input-number" type="number" step="0.01" min="0" placeholder="0,00" name="number"> ₽
+    </div>
+    <h5>Заплните все поля!</h5>
+    <!-- <input class="button" type="submit" value="Добавить"> -->
+    <button class="button">Добавить</button>
+
+    <div class="table">
+      <div class="row">
+        <div class="cell">
+          <h4>Наименование</h4>
+        </div>
+        <div class="cell">
+          <h4>Дата</h4>
+        </div>
+        <div class="cell">
+          <h4>Сумма</h4>
+        </div>
+        <div class="cell">
+          <h4>Удалить</h4>
+        </div>
+      </div>
+      <div class="row body-row"></div>    
+    </div>
+    <div>Итого: <span class="sum"></span></div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
